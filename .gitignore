@@ -1,5 +1,14 @@
-# Virtual environment
-venv/
+# Ignore Python bytecode files
+*.pyc
+__pycache__
 
-# Data files (if large/generated)
-data/
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore data folder (if it's not needed in the repo)
+data/raw/
+
+# Ignore other IDE-related files (if applicable)
+.vscode/
+.idea/
