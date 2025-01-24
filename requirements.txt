@@ -1,3 +1,5 @@
-pandas
+dvc
+dagshub
 scikit-learn
-pyyaml
+mlflow
+dvc-s3
